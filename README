@@ -1,0 +1,7 @@
+The purpose of this repo is to contain a script that will tell you if
+a given website would serve out headers that would let a reverse proxy
+(like CloudFlare) cache it.
+
+The purpose of the cache is to make it so that if the site suddenly
+finds itself under heavy load to a small number of pages, CloudFlare
+handles most of that load.
